@@ -96,23 +96,19 @@ Please read CONTRIBUTING.md and our CODE OF CONDUCT before submitting a pull req
 
 ---
 ## 📬 Contact
-```
-Email: avarshvir@gmail.com
-LinkedIn: linkedin.com/in/arshvir
-Jaiho Labs: jaiho-labs.onrender.com <!-- optional -->
-Project page (demo): visio-ai.streamlit.app
-```
+- Email: avarshvir@gmail.com
+- LinkedIn: linkedin.com/in/arshvir
+- Jaiho Labs: jaiho-labs.onrender.com <!-- optional -->
+- Project page (demo): visio-ai.streamlit.app
+
 
 ---
 ## 💎 Acknowledgements
-```
-Streamlit team for enabling low-code AI apps
-Scikit-learn & Pandas contributors
-Vision LLM's via OpenRouter API
-Early users and testers from Jaiho Labs
-```
+
+- Streamlit team for enabling low-code AI apps
+- Scikit-learn & Pandas contributors
+- Vision LLM's via OpenRouter API
+- Early users and testers from Jaiho Labs
 
 ---
-```
-<i>Built with ♥ by Arshvir Singh under Jaiho Labs</i>
-```
+<i>Built with ♥ by Arshvir under Jaiho Labs</i>
