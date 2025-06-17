@@ -42,7 +42,7 @@
 
 - **Frontend**: Streamlit
 - **Backend**: Python (Pandas, NumPy, Seaborn, Matplotlib, Scikit-Learn)
-- **AI Module**: Google Gemini via OpenRouter API
+- **AI Image Module**: Vision LLM's via OpenRouter API
 - **PDF Engine**: FPDF / ReportLab
 - **IDE**: Custom code editor component
 - **Hosting**: Streamlit Cloud (Free Plan)
@@ -66,8 +66,8 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/visio-ai.git
-cd visio-ai
+git clone https://github.com/avarshvir/visio_ai.git
+cd visio_ai
 
 # Create a virtual environment
 python -m venv venv
@@ -77,4 +77,10 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 
 # Run Streamlit app
-streamlit run app.py
+streamlit run home.py
+```
+
+---
+## 🔒 License
+This project is licensed under the Apache License 2.0.
+© 2025 Arshvir, Jaiho Labs (A Jaiho Digital Subsidiary)
