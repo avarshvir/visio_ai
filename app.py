@@ -26,8 +26,8 @@ st.markdown("""
             <p style="margin: 0; color: #64748B;">Enterprise Data Science Environment</p>
         </div>
         <div style="text-align: right;">
-            <div style="font-weight: 600; color: #0F172A;">JAIHO LABS</div>
-            <div style="font-size: 13px; color: #64748B;">v2.1.0 • Stable</div>
+            <div style="font-weight: 600; color: #0F172A;">By Arshvir</div>
+            <div style="font-size: 13px; color: #64748B;">Open Source • ML</div>
         </div>
     </div>
 """, unsafe_allow_html=True)

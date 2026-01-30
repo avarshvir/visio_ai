@@ -45,8 +45,8 @@ def sidebar_nav():
     st.sidebar.markdown(
         """
         <div style="font-size: 0.75rem; color: #94A3B8;">
-            © 2026 Jaiho Labs<br>
-            Visio AI Platform v2.0
+            © 2026 Visio AI <br>
+            Open-Source • ML
         </div>
         """,
         unsafe_allow_html=True
