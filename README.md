@@ -116,5 +116,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <p align="center">
-  Built with ❤️ by <strong>Jaiho Labs</strong>
+  Built with ❤️ by <strong>Arshvir</strong>
 </p>
