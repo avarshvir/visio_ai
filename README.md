@@ -1,114 +1,120 @@
-# 🚀 Visio AI – Visual Intelligence for Data Analysis and Machine Learning
+# 💠 Visio AI Enterprise Platform
 
-![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
-![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-orange.svg)
-![Status](https://img.shields.io/badge/Status-Production_Ready-green.svg)
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)
-![Made with ♥](https://img.shields.io/badge/Made_with-%E2%99%A5-red.svg)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.40%2B-FF4B4B.svg)](https://streamlit.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Code Style](https://img.shields.io/badge/Code%20Style-Black-000000.svg)](https://github.com/psf/black)
 
----
-
-## 🌟 Overview
-
-**Visio AI** is a full-featured, no-code platform for **data analysis**, **machine learning**, and **data visualization**, powered by **Streamlit**. It is built to empower developers, analysts, and students to analyze datasets, generate visual insights, and train models — all through a friendly UI.
-
-> 📊 Whether you're exploring data, visualizing patterns, handling missing values, or building models — **Visio AI** makes it effortless.
+> **The efficient, local-first alternative to cloud AI.**  
+> Clean, Visualize, and Model your data without writing a single line of code.
 
 ---
 
-## 🎯 Key Features
+## 📖 Overview
 
-| Category | Features |
-|---------|----------|
-| 🧹 **Preprocessing** | Missing value handler, summary statistics |
-| 📈 **EDA Tools** | Pair plots, line plots, histograms, scatter plots |
-| 🤖 **Modeling** | Train/test ML models (regression & classification) |
-| ☁️ **AI Tools** | Gemini-powered image analyzer |
-| 🧠 **Word Analysis** | WordCloud generator |
-| 🧾 **Reporting** | PDF report generation |
-| 💻 **IDE Tools** | Mini IDE/editor inside the app |
-| 🔓 **No-code Interface** | Everything via Streamlit UI — no coding needed! |
+**Visio AI** is an enterprise-grade Data Science platform designed to democratize Machine Learning. Unlike heavy, resource-intensive Cloud AI solutions, Visio AI runs highly efficient algorithms (XGBoost, Random Forest, etc.) directly on your local hardware.
+
+It serves as a "Command Center" for your data, handling the full pipeline:
+1.  **Ingestion & Wrangling** (Cleaning dirty data)
+2.  **Exploratory Data Analysis** (Interpreting patterns)
+3.  **Predictive Modeling** (Forecasting future trends)
+4.  **Computer Vision** (Analyzing images)
 
 ---
 
-## 🖥️ Screenshot
+## ✨ Key Features
 
-![Visio AI UI Sample](https://your-image-url.com/visio-ai-screenshot.png) <!-- Optional -->
+### 🏗️ Data Engineering
+*   **Universal Loader**: Support for CSV, Excel (`.xlsx`), and Text files.
+*   **Smart Wrangling**: 
+    *   Auto-detect and fix missing values (Imputation).
+    *   One-click "Remove Commas" features for financial datasets.
+    *   Type correction (String $\to$ Number).
 
----
+### 📊 Advanced Visualization
+*   **Dual Mode Graphics**: Switch between **Interactive** (Plotly) for exploration and **Static** (Seaborn) for publication.
+*   **Smart Suggestions**: The system automatically recommends the right chart (e.g., Heatmap vs Scatter) based on your variables.
 
-## 🛠️ Tech Stack
+### 🧠 Machine Learning Engine
+*   **Supervised Learning**: Training interface for **Regression** and **Classification**.
+    *   *Algorithms*: XGBoost, Random Forest, JVM, Linear Models, Decision Trees.
+*   **Unsupervised Learning**: K-Means Clustering (with 3D Viz) and PCA Dimensionality Reduction.
+*   **AutoML**: Automatically trains 6+ models and ranks them on a leaderboard.
 
-- **Frontend**: Streamlit
-- **Backend**: Python (Pandas, NumPy, Seaborn, Matplotlib, Scikit-Learn)
-- **AI Image Module**: Vision LLM's via OpenRouter API
-- **PDF Engine**: FPDF / ReportLab
-- **IDE**: Custom code editor component
-- **Hosting**: Streamlit Cloud (Free Plan)
-
----
-
-## 🔐 Future Plans (Pro, AI+, Enterprise)
-
-| Plan        | Features                                         |
-|-------------|--------------------------------------------------|
-| 🆓 **Free**       | Full access to all local tools and EDA          |
-| 💡 **Pro**        | Save sessions, export models, cloud storage     |
-| 🧠 **AI+**        | Gemini-based captioning, NLP, visual Q&A        |
-| 🏢 **Enterprise** | Team collaboration, priority support, AI quota |
-
-> ✅ Login/logout system and rate-limiting APIs will be included in future releases.
+### 👁️ Image Intelligence
+*   **Multimodal Analysis**: Integrated with **Nvidia Nemotron-12B** for analyzing images.
+*   **Tasks**: OCR, Scene Description, Defect Detection.
 
 ---
 
-## 🚀 Installation & Run Locally
+## 🚀 Installation & Usage
 
+### Prerequisites
+*   Python 3.8 or higher
+*   pip
+
+### Setup
+1.  **Clone the Repository**
+    ```bash
+    git clone https://github.com/StartUp-Jaiho/Visio-AI.git
+    cd Visio-AI
+    ```
+
+2.  **Create a Virtual Environment (Optional but Recommended)**
+    ```bash
+    python -m venv venv
+    # Windows
+    venv\Scripts\activate
+    # Mac/Linux
+    source venv/bin/activate
+    ```
+
+3.  **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+### Running the App
 ```bash
-# Clone the repo
-git clone https://github.com/avarshvir/visio_ai.git
-cd visio_ai
+streamlit run Home.py
+```
+The application will launch automatically in your web browser.
 
-# Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+---
 
-# Install requirements
-pip install -r requirements.txt
+## 📂 Project Structure
 
-# Run Streamlit app
-streamlit run home.py
+```text
+Visio-AI/
+├── Home.py                 # Application Entry Point
+├── Docs.html               # Deep Dive Documentation (HTML)
+├── Guide.md                # User Guide (Markdown)
+├── utils.py                # Shared Utility Functions
+├── styles.css              # Enterprise CSS Theme
+├── pages/                  # Application Modules
+│   ├── 1_Data_Loader.py    # Ingestion & Cleaning
+│   ├── 2_EDA.py            # Visualization Engine
+│   ├── 3_Supervised.py     # ML Training & Prediction
+│   ├── 4_Unsupervised.py   # Clustering & PCA
+│   ├── 5_Image_AI.py       # Computer Vision
+│   ├── 6_AutoML.py         # Automated Modeling
+│   ├── 7_Report.py         # PDF Reporting
+│   └── ... (Utilities)
+└── assets/                 # Static Assets (Images, Icons)
 ```
 
 ---
-## 🔒 License
-```
-This project is licensed under the Apache License 2.0.
-© 2025 Arshvir, Jaiho Labs (A Jaiho Digital Subsidiary)
-```
 
----
 ## 🤝 Contributing
-```
-We welcome contributions from the community!
-Please read CONTRIBUTING.md and our CODE OF CONDUCT before submitting a pull request.
-```
+
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to submit a Pull Request.
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-## 📬 Contact
-- Email: avarshvir@gmail.com
-- LinkedIn: linkedin.com/in/arshvir
-- Jaiho Labs: jaiho-labs.onrender.com <!-- optional -->
-- Project page (demo): visio-ai.streamlit.app
 
-
----
-## 💎 Acknowledgements
-
-- Streamlit team for enabling low-code AI apps
-- Scikit-learn & Pandas contributors
-- Vision LLM's via OpenRouter API
-- Early users and testers from Jaiho Labs
-
----
-<i>Built with ♥ by Arshvir under Jaiho Labs</i>
+<p align="center">
+  Built with ❤️ by <strong>Jaiho Labs</strong>
+</p>

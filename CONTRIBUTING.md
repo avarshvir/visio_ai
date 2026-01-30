@@ -1,35 +1,42 @@
 # Contributing to Visio AI
 
-First off, thank you for considering contributing to Visio AI! 🎉  
-We appreciate your time and effort to help make this open-source platform better.
+First off, thanks for taking the time to contribute! 🎉
 
----
+The following is a set of guidelines for contributing to Visio AI. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
-## 🛠️ Ways to Contribute
+## How Can I Contribute?
 
-- 🐛 Report bugs or issues
-- 🧠 Suggest new features or enhancements
-- ✨ Improve UI or user flow
-- 📊 Add more charts, models, or integrations
-- 📖 Improve documentation or add tutorials
-- 🧪 Write or improve test coverage
+### Reporting Bugs
 
----
+This section guides you through submitting a bug report.
+*   **Use a clear and descriptive title** for the issue to identify the problem.
+*   **Describe the exact steps which reproduce the problem** in as much detail as possible.
+*   **Provide specific examples** to demonstrate the steps.
 
-## 🚀 Getting Started
+### Suggesting Enhancements
 
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature/my-feature`
-3. Make your changes and test locally
-4. Push to your fork: `git push origin feature/my-feature`
-5. Open a Pull Request on the main repo
+This section guides you through submitting an enhancement suggestion.
+*   **Use a clear and descriptive title** for the issue.
+*   **Provide a step-by-step description of the suggested enhancement** in as much detail as possible.
+*   **Explain why this enhancement would be useful** to most users.
 
----
+### Pull Requests
 
-## 🧪 Project Setup
+1.  Fork the repo and create your branch from `main`.
+2.  If you've added code that should be tested, add tests.
+3.  Ensure the test suite passes.
+4.  Make sure your code lints.
+5.  Issue that pull request!
 
-```bash
-git clone https://github.com/avarshvir/visio_ai.git
-cd visio-ai
-pip install -r requirements.txt
-streamlit run home.py
+## Styleguides
+
+### Python Styleguide
+
+*   Use [Black](https://github.com/psf/black) for code formatting.
+*   Follow [PEP 8](https://www.python.org/dev/peps/pep-0008/).
+
+### Commit Messages
+
+*   Use the present tense ("Add feature" not "Added feature").
+*   Use the imperative mood ("Move cursor to..." not "Moves cursor to...").
+*   Limit the first line to 72 characters or less.
