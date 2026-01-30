@@ -76,7 +76,7 @@ It serves as a "Command Center" for your data, handling the full pipeline:
 
 ### Running the App
 ```bash
-streamlit run Home.py
+streamlit run app.py
 ```
 The application will launch automatically in your web browser.
 
